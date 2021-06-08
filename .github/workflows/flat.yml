@@ -26,4 +26,4 @@ jobs:
         with:
           http_url: "https://www.elkjop.no/INTERSHOP/web/WFS/store-elkjop-Site/no_NO/-/NOK/CC_ViewStoreLocator-ProductDetailInclude?ProductUUID=1D6sGQWFhxEAAAFygnjkB8JG&html"
           downloaded_filename: "elkjop.html"
-          postprocess:
+          postprocess: main.ts
