@@ -23,6 +23,8 @@ jobs:
         run: pip install -r requirements.txt
       - name: scrape data
         run: python scrape_data.py
+        env:
+          TECHULUS_API_KEY: ${{ secrets.TECHULUS_API_KEY }}
       - name: Commit and push if it changed
         run: |-
           git config user.name "Automated"
